@@ -48,10 +48,10 @@ Below are the steps to set up **backend** (NestJS) and **frontend** (Next.js).
    # GitHub OAuth
    GITHUB_CLIENT_ID={github_client_id}
    GITHUB_CLIENT_SECRET={github_client_secret}
-
-cd backend
-npm install
-npm run start:dev
+   
+   # cd backend
+   npm install
+   npm run start:dev
 
 The NestJS server should start on http://localhost:3000
 
@@ -63,9 +63,9 @@ The NestJS server should start on http://localhost:3000
    ```bash
    NEXT_PUBLIC_API_URL=http://localhost:3000
    NEXT_PUBLIC_GITHUB_CLIENT_ID="github_client_id_app"
-
-cd frontend
-npm install
-npm run dev
+   
+   # cd frontend 
+   npm install 
+   npm run dev
 
 By default, Next.js runs on http://localhost:3001
