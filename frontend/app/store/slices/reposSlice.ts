@@ -87,7 +87,6 @@ export const fetchRepos = createAsyncThunk<
     }
 
     const data = await res.json();
-    console.log('data:::: = ', data);
     const viewer = data?.data?.viewer;
     if (!viewer) {
       throw new Error(data.message || "Failed to fetch repos");
